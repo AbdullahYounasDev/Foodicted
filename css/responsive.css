@@ -1,0 +1,13 @@
+@media screen and (max-width: 1200px) {
+  .hero-all-pizza {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 770px) {
+  .line1 {
+    display: none !important;
+  }
+  .line2 {
+    display: none !important;
+  }
+}

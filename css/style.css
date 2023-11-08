@@ -1,0 +1,166 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Itim&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;1,400;1,500;1,600;1,700&display=swap");
+/* Custom Classes */
+.poppins {
+  font-family: poppins;
+}
+.roboto {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+h1 {
+  font-size: 60px;
+  letter-spacing: 1px;
+}
+h2 {
+  font-size: 36px;
+  letter-spacing: 1px;
+}
+h4 {
+  font-size: 96px;
+}
+.p-fs20 {
+  font-size: 20px;
+}
+.p-fs13 {
+  font-size: 13px;
+}
+button:hover {
+  transition: 0.5s ease-in-out;
+  scale: 1.1;
+}
+.bg-yellow {
+  background-color: #febd2e;
+}
+.bg-orange {
+  background-color: #ff8a00;
+}
+
+/* Nav Bar */
+.nav-link:hover {
+  color: #febd2e !important;
+  transition: 0.4s ease-in-out;
+  transform: scale(1.1);
+}
+/* hero sec */
+.salad-p {
+  top: 11%;
+}
+.top-sec {
+  background-color: #fff7e5;
+}
+#hero-arrow {
+  width: 20px;
+}
+.hero-main-img-item2 {
+  position: absolute;
+  bottom: 190px;
+  right: -59px;
+}
+.hero-sec-img-1 {
+  position: absolute;
+  top: -116px;
+  left: -50px;
+}
+.hero-sec-img-2 {
+  position: absolute;
+  top: -18px;
+  left: 175px;
+}
+.hero-sec-img-3 {
+  position: absolute;
+  top: -123px;
+  right: -63px;
+}
+.round {
+  width: 537px;
+  height: 537px;
+  /* border-image: linear-gradient(359deg, #ff8a00 -128.26%, #fff 115.62%) 1 !important;
+  border-radius: 50% !important; */
+}
+/* second sec */
+.cards {
+  transition: transform 0.3s ease;
+}
+.card {
+  margin: auto;
+  flex: 0 0 auto;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+}
+.slider {
+  width: 96%;
+}
+.card-cont {
+  width: 162px;
+  height: 166px;
+}
+.second-sec-row-col1 {
+  border-radius: 203px 203px 203px 0px;
+  background: #fff7e5;
+}
+.slide-btn {
+  border: 2px solid #ff8a00;
+}
+.second-sec-img-last {
+  right: -105px !important;
+}
+/* Third Sec  */
+.third-sec-row-col1 {
+  border-radius: 203px 203px 203px 0px;
+  background: #fff7e5;
+}
+.third-sec-row-col1-img {
+  bottom: 50px;
+}
+.fourth-sec-row-col2 {
+  border-radius: 203px 203px 0px 203px;
+  background: #fff7e5;
+}
+.fourth-sec-row-col1-img {
+  bottom: 100px;
+}
+/* ..... */
+.red-chilli1 {
+  top: -120px;
+}
+/* last section */
+.line1 {
+  width: 829px;
+  height: 1px;
+  background-color: #ff8a00;
+  bottom: 0;
+}
+.line2 {
+  width: 1px;
+  height: 313px;
+  background-color: #ff8a00;
+  left: 340px;
+}
+/* last section */
+.last-sec {
+  background: #fff7e5;
+}
+.line {
+  width: 1px;
+  height: 10px;
+  background: #ff8a00;
+}
+.onion {
+  top: -100px;
+  right: -116px;
+}
+.red-chilli2 {
+  left: -116px;
+  top: 413px;
+}
+input {
+  outline: none !important;
+}
+input::placeholder {
+  color: white !important;
+  font-weight: 400 !important;
+  font-size: 15px !important;
+}
